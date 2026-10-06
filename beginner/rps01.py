@@ -3,5 +3,7 @@ def getchoice():
     comp="paper"
     return my,comp
 
-choice=getchoice()
-print(choice)
+choice1=getchoice()
+choice2=getchoice()
+print(choice1)
+print(choice2)
