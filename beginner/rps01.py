@@ -1,9 +1,8 @@
 def getchoice():
-    my="rock"
-    comp="paper"
-    return my,comp
+    player_choice="rock"
+    comp_choice="paper"
+    choices={"player":player_choice,"computer":comp_choice}
+    return choices 
 
-choice1=getchoice()
-choice2=getchoice()
-print(choice1)
-print(choice2)
+choices1=getchoice()
+print(choices1)
