@@ -6,31 +6,32 @@ def getchoice():
     choices={"player":player_choice,"computer":comp_choice}
     return choices 
 
-def check(player,computer):
-    if player==computer:
-        return "its a tie"
-    message = f"You choose {player}, computer chose {computer}" #else
-    return message
+#with no parameters 
+res1=getchoice() #stores the choices made
+def check():
+    p=res1["player"]#access the dictioery value
+    c=res1["computer"]
+    message=f"you chose {p} and computer chose {c}"
+    print(message)
+    if p==c:
+        return "Its a tie"
+    if p=="rock":
+        if c=="scissors":
+            return"You win"
+        else:
+            return"Computer wins"
 
-res1=getchoice()
-res2=check(res1["player"],res1["computer"])
+    if p=="paper":
+        if c=="rock":
+            return"You win"
+        else:
+            return"Computer wins"
+
+    if p=="scissors":
+        if c=="paper":
+            return"You win"
+        else:
+            return"Computer wins"
+
+res2=check()
 print(res2)
-
-#if no parameter means 
-
-#res1 = getchoice()
-#def check():
- #   player = res1["player"]
-  #  computer = res1["computer"]
-
-#    if player == computer:
- #       return "It's a tie"
-
-#    message = f"You chose {player}, computer chose {computer}"
-
- #   return message
-
-
-#res2 = check()
-
-#print(res2)
