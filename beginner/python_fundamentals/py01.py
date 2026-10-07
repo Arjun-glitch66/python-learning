@@ -40,3 +40,35 @@ print(50 not in numbers)
 # Ternary
 result = "Big" if a > 10 else "Small"
 print(result)
+
+name = "Arjun Kumar"
+
+# Basic
+print(name)
+print(len(name))
+
+# Characters
+print(name[0])
+print(name[-1])
+
+# Slicing
+print(name[0:5])
+print(name[:5])
+print(name[6:])
+
+# String methods
+print(name.upper())
+print(name.lower())
+
+# Replace
+print(name.replace("Kumar", "SRM"))
+
+# Find
+print(name.find("Kumar"))
+
+# Reverse
+print(name[::-1])
+
+# Split
+words = name.split()
+print(words)
