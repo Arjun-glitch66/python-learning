@@ -72,3 +72,9 @@ print(name[::-1])
 # Split
 words = name.split()
 print(words)
+
+
+#strings are immutable so only like this we can do 
+name2="Arjun"
+name2="B"+name2[1:]
+print(name2)
