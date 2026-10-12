@@ -1,0 +1,47 @@
+1. The four types of functions
+Type 1
+Without parameters, without return
+def add():    a=10    b=20    print(a+b)add()
+
+
+
+Output: 30
+- No inputs are passed into the function.
+- It prints the answer itself.
+- It doesn't return a value.
+
+
+Type 2
+With parameters, without return
+def add(a,b):    print(a+b)add(10,20)
+
+
+
+Output: 30
+- a and b receive the inputs.
+- The function prints the answer.
+- It doesn't return a value.
+
+
+Type 3
+Without parameters, with return
+def add():    a=10    b=20    return a+bresult=add()print(result)
+
+
+
+Output: 30
+- No inputs are passed in.
+- The function calculates the answer.
+- return sends the answer back to the caller.
+
+
+Type 4
+With parameters, with return
+def add(a,b):    return a+bresult=add(10,20)print(result)
+
+
+
+Output: 30
+- Inputs are passed in.
+- The function calculates the answer.
+- It returns the answer to the caller.
