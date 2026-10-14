@@ -1,0 +1,11 @@
+Method	Purpose
+upper()	Convert to uppercase
+lower()	Convert to lowercase
+strip()	Remove whitespace from both ends
+lstrip()	Remove whitespace from the left
+rstrip()	Remove whitespace from the right
+replace(old,new)	Replace matching text
+find(sub)	Find the first matching position; returns -1 if absent
+count(sub)	Count occurrences
+startswith(sub)	Check the beginning
+endswith(sub)	Check the ending
