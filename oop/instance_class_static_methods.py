@@ -32,3 +32,12 @@ item1=Item.convertion("Product,100") #converts and also creates the object autom
 print(item1.name)
 print(item1.price)
 
+#static method
+class Item:
+    def __init__(self,price):
+        self.price=price
+    @staticmethod
+    def expensive(price):
+        return price>1000
+print(Item.expensive(1500)) #doesnt require objects to access the method 
+print(Item.expensive(500))
