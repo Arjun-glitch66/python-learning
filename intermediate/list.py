@@ -1,4 +1,4 @@
-a=[1,2]
+a=[1,2] #list is mutable we can put any datatye in list 
 a.append([3,4])
 print(a)       # [1,2,[3,4]]
 
@@ -10,10 +10,10 @@ print(b)       # [1,2,3,4]
 
 nums=[10,20,30,40,50]
 
-nums.remove(30)
+nums.remove(30) #throws error if not available
 print(nums)       # [10,20,40,50]
 
-x=nums.pop()
+x=nums.pop() # pop removes and returns if nothing is mentioned removes the last element
 print(x)          # 50
 print(nums)       # [10,20,40]
 

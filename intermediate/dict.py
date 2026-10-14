@@ -1,5 +1,5 @@
 marks = {"Maths": 90, "Python": 95}
-
+#dict is mutable
 print(marks["Python"])  # 95
 print(marks.get("Java"))       # None .get() i used becasue if the key java is not available it returns None instead of error   
 print(marks.get("Java", 0))    # 0 is the default value so the op is 0 
