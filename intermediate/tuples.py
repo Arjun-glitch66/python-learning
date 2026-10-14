@@ -9,7 +9,7 @@ nums[0]=99 #error in tuple becuase tuple is immutable
 ##############a=(10,20,30)
 b=("Phone","Laptop","Tablet")
 c=()
-
+a=[10,20,30]
 print(a[0])   # 10
 print(a[-1])  # 30
 print(a[1:3]) # (20, 30)
