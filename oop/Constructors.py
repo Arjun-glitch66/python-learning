@@ -1,6 +1,6 @@
 class Item:
         def __init__(self,price:float,name:str,quantity=0): #type hints are for user clarification it doesnt affect at runtime
-            assert price>=0, f" {price} is negative reinput the value" #else statement
+            assert price>=0, f" {price} is negative reinput the value" #AssertionError statement 
             assert quantity>=0, f"{quantity} is negative reinput the value"
 
             self.price=price
