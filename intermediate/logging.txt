@@ -1,0 +1,23 @@
+DEBUG
+
+Detailed diagnostic information
+
+
+INFO
+
+Normal program events
+
+
+WARNING
+
+Something unexpected
+
+
+ERROR
+
+A problem occurred
+
+
+CRITICAL
+
+A very serious problem
